@@ -1,0 +1,14 @@
+.slider {
+    width: 70rem;
+    height: 25rem;
+    background: #faf7f2;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 0rem;
+  }
+  
+  .slider img {
+    width: 70rem;
+    height: 25rem;
+  }
