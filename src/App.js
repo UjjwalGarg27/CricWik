@@ -20,6 +20,11 @@ const App = () => {
       <Route exact path="/AboutUs" component={AboutUs} />
 
       <MatchCards />
+      <MatchCards />
+      <MatchCards />
+      <MatchCards />
+      <MatchCards />
+      <MatchCards />
     </>
   )
 }

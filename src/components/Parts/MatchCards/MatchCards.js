@@ -4,21 +4,22 @@ import "./style.css";
 const MatchCards = () => {
     return (
         <>
-    <section className="main-card--container">
-        <div className="card-container">
-            <div className="card">
-                <div className="card-body">
-                    <span className="card-number card-circle subtle"> 1 </span>
-                    <span className="card-author subtle"> test </span>
-                    <h2 className="card-title"> Aus </h2>
-                    <span className="card-description subtle">
-                    fergaefk.gnef.gnrf    
-                    </span> 
-                <div className="card-read">Read</div>
+    <section className="container">
+        <div className="card">
+                <div className="card-div1">    
+                    <h2 className="card-text"> Tests </h2>
+                    <h2> Match Started </h2>
                 </div>
-            <span className="card-tag subtle">Live</span>
-            </div>
-        </div>
+                <div className="card-div2">
+                    <h3> 25/7/2021, 7:30:00 PM </h3>
+                </div>
+                <div className="card-div3">
+                    <h1 className="card-div3-text">India</h1> <h2>vs</h2> <h1 className="card-div3-text">England</h1>
+                </div>
+                <div className="card-div4">
+                    <button> <h1 className="card-btn">See Score</h1> </button>
+                </div>
+        </div>  
     </section>
         </>
     )
