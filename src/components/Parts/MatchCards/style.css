@@ -14,8 +14,8 @@
 
 .card {
   background-color: white;
-  width: 650px;
-  height: 250px;
+  width: 400px;
+  height: 300px;
   margin: 15px;
   border-radius: 15px;
   padding: 10px;
@@ -30,7 +30,7 @@
 }
 
 .card-text {
-  margin-right: 130px;
+  margin-right: 100px;
 }
 
 .card-div2 {
@@ -50,10 +50,9 @@
 }
 
 .card-div3-text {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 35px;
+  margin-right: 25px;
 }
-
 
 .card-div4 {
   background-color: white;
@@ -63,19 +62,10 @@
   color: green;
 }
 
-.card-btn1 {
+.card-btn {
   color: white;
   padding: 10px;
   background-color: green;
-  margin-right: 20px;
   cursor: pointer;
   width: 150px;
-}
-
-.card-btn2 {
-  color: white;
-  padding: 10px;
-  background-color: green;
-  cursor: pointer;
-  width: 400px;
 }

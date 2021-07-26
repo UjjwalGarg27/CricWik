@@ -10,9 +10,9 @@ body {
 
 .navbar {
     padding-top: 3.5rem;
-    padding-bottom: 1.4rem;;
+    padding-bottom: 3rem;
     text-align: center;
-    background-color: #aaa;
+    background-color: #faf7f2;
 }
 
 .btn-group {
@@ -22,8 +22,8 @@ body {
 
 .btn-group-items {
     border: none;
-    padding: 1.5rem 3rem;
-    background-color: white;
+    padding: 1.5rem 9.2rem;
+    background-color: rgb(240, 229, 228);
     cursor: pointer;
     margin: 0;
     font-size: 17px;
@@ -34,7 +34,6 @@ body {
 
 .btn-group-items:hover,
 .btn-group-items:focus {
-    font-size: 20px;
     color: rebeccapurple;
     box-shadow: inset 0px -20px 0px -15px rebeccapurple;
 }
