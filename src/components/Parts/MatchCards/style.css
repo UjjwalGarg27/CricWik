@@ -14,7 +14,7 @@
 
 .card {
   background-color: white;
-  width: 400px;
+  width: 650px;
   height: 250px;
   margin: 15px;
   border-radius: 15px;
@@ -50,8 +50,8 @@
 }
 
 .card-div3-text {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 
@@ -63,10 +63,19 @@
   color: green;
 }
 
-.card-btn {
+.card-btn1 {
+  color: white;
+  padding: 10px;
+  background-color: green;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 150px;
+}
+
+.card-btn2 {
   color: white;
   padding: 10px;
   background-color: green;
   cursor: pointer;
-  width: 150px;
+  width: 400px;
 }

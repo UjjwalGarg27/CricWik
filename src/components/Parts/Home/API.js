@@ -1,53 +1,21 @@
-import React, {useState, useEffect} from 'react';
 
-const myAPIKey = "cBVcqExbJcgAdGVc3VambjYFNA13";
+const API_KEY = process.env.REACT_APP_API_KEY;
+// const ID = process.env.REACT_APP_ID;
 
-const Temp = () => {
+export const getMatchInfo = () => {
+    const url = `https://cricapi.com/api/matches?apikey=${API_KEY}`;    
 
-    const [match, setMatch] = useState([]);
+    return fetch(url)
+    .then((response) => response.json())
+    .catch((error) => console.log("error", error));
+};
 
-    const getMatchInfo = async () => {
-        try {
-            const url = `https://cricapi.com/api/matches/${myAPIKey}`;
-            
-            const res = await fetch(url);
-            const data = await res.json();
+export const getMatchScore = (id) => {
+    const url = `https://cricapi.com/api/cricketScore?apikey=${API_KEY}&unique_id=${id}`;
 
-
-            setMatch = data.matches;
-            console.log(data);
-            
-        } catch (error) {
-            console.log(error);
-        }
-    }
-
-    useEffect(() => {
-            getMatchInfo();
-    }, );
+    return fetch(url)
+    .then((response) => response.json())
+    .catch((error) => console.log("error", error));
+};
 
 
-    return (
-        <>
-            <h1> CricWik </h1>
-        </>
-    )
-}
-
-
-export default Temp;
-
-
-// const getMatchScore = async (id) => {
-//     try {
-//         const url = `https://cricapi.com/api/matches?apikey=${myAPIKey}&unique_id=${id}`;
-        
-//         const res = await fetch(url);
-//         const data = await res.json();
-        
-//     } catch (error) {
-//         console.log(error);
-//     }
-
-// }
-// export default getMatchScore;

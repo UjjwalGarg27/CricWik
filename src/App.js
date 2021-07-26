@@ -11,7 +11,7 @@ import MatchCards from './components/Parts/MatchCards/MatchCards';
 const App = () => {
   return (
     <>
-      {/* <Temp /> */}
+
 
       <Route exact path="/" component={Home} />
       <Route exact path="/Home" component={Home} />
@@ -19,12 +19,6 @@ const App = () => {
       <Route exact path="/KeyFindings" component={KeyFindings} />
       <Route exact path="/AboutUs" component={AboutUs} />
 
-      <MatchCards />
-      <MatchCards />
-      <MatchCards />
-      <MatchCards />
-      <MatchCards />
-      <MatchCards />
     </>
   )
 }
