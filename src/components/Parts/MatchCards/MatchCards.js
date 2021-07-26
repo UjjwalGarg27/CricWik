@@ -60,7 +60,7 @@ const MatchCards = ({match}) => {
             {open && (
                 <div className="card-div2 describe"> 
                    <div> <h4> {details.description} </h4> </div>
-                   <div className="card-div4 describe">
+                   <div className="card-div4">
                    <button onClick={() => {handleCloseBtn()}}> <h1 className="card-btn"> Close </h1> </button>
                     </div>
                 </div>
