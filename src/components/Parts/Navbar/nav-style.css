@@ -9,6 +9,7 @@ body {
 }
 
 .navbar {
+    display: flex;
     padding-top: 3.5rem;
     padding-bottom: 3rem;
     text-align: center;
@@ -16,6 +17,7 @@ body {
 }
 
 .btn {
+    display: flex;
     padding: auto;
     text-transform: capitalize;
 }

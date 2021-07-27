@@ -31,6 +31,8 @@ const Tableau = () => {
 
         <div className="tableau">
         <h1> DATA ANALYSIS 4 </h1>
+        </div>
+        <div>
             <TableauReport url="https://public.tableau.com/views/CricketVisualization/TOTALRUNSSCOREDBYTHEBATSMEN" />
         </div>
 
