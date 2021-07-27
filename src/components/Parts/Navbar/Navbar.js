@@ -7,11 +7,11 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar">
-                <div className="btn-group">
-                    <Link to="/Home" className="btn-group-items"> Home </Link>
-                    <Link to="/Tableau" className="btn-group-items"> Data Visualization </Link>
-                    <Link to="/KeyFindings" className="btn-group-items"> Key Findings </Link>
-                    <Link to="/AboutUs" className="btn-group-items"> About Us </Link>
+                <div className="btn">
+                    <Link to="/Home" className="btn-items"> Home </Link>
+                    <Link to="/Tableau" className="btn-items"> Data Visualization </Link>
+                    <Link to="/KeyFindings" className="btn-items"> Key Findings </Link>
+                    <Link to="/AboutUs" className="btn-items"> About Us </Link>
                 </div>
             </nav>
 

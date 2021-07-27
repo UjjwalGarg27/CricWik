@@ -15,12 +15,12 @@ body {
     background-color: #faf7f2;
 }
 
-.btn-group {
+.btn {
     padding: auto;
     text-transform: capitalize;
 }
 
-.btn-group-items {
+.btn-items {
     border: none;
     padding: 1.5rem 9.2rem;
     background-color: rgb(240, 229, 228);
@@ -32,8 +32,8 @@ body {
     text-decoration: none;
 }
 
-.btn-group-items:hover,
-.btn-group-items:focus {
+.btn-items:hover,
+.btn-items:focus {
     color: rebeccapurple;
     box-shadow: inset 0px -20px 0px -15px rebeccapurple;
 }
