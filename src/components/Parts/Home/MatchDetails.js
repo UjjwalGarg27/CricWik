@@ -12,7 +12,7 @@ const MatchDetails = () => {
             setMatches(data.matches)
             console.log(data.matches);
         })
-        .catch((error) => alert("error"));
+        .catch((error) => alert("error1"));
 }, []);
 
     return (

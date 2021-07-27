@@ -20,7 +20,7 @@ const MatchCards = ({match}) => {
             console.log(data);
             setDetails(data);
         })
-        .catch((error) => console.log(error));
+        .catch((error) => console.log("error2", error));
     };
 
     const handleCloseBtn = () => {
