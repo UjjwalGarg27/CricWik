@@ -6,7 +6,7 @@ const Images = () => {
     return (
         <>
     <Carousel>
-        <ImageSlider images="images/img1.jpg" />
+        <ImageSlider images="/images/img1.jpg" />
         <ImageSlider images="/images/img2.jpg" />
         <ImageSlider images="/images/img3.jpg" />
         <ImageSlider images="/images/img4.jpg" />
