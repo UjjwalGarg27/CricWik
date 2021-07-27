@@ -8,6 +8,7 @@ const KeyFindings = () => {
 
         <Navbar />
 
+        <div className="container">
         <div className="header">
         <div className="heading"> 
             <strong> KEY FINDINGS </strong>
@@ -40,6 +41,7 @@ const KeyFindings = () => {
         </p>
         </div>
 
+        </div>
         </div>
         </>
     )

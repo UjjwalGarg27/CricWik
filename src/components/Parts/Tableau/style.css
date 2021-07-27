@@ -1,8 +1,15 @@
 
+.container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+
 .tableau {
     margin-top: 2rem;
     padding-top: 0rem; 
-    margin-left: 35rem;
+    margin-left: 40rem;
     font-size: 20px;
     margin-bottom: 50px;
     padding-bottom: 0rem;
