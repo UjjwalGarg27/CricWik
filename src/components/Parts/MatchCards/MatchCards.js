@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import "./style.css";
+import "./card-style.css";
 import { getMatchScore } from '../Home/API';
 
 const MatchCards = ({match}) => {

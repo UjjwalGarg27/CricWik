@@ -7,6 +7,7 @@ const AboutUs = () => {
         <>
 
         <Navbar />
+        <div className="container">
         <div className="header">
         <div className="heading"> 
             <strong> CrickWik Website </strong>
@@ -26,7 +27,7 @@ const AboutUs = () => {
 
         <div className="para links footer">
         <p>
-            Datasets that are used for doing the Data Visualization part are as follows :- <br />
+            Datasets that are used for doing the Data Visualization part are as follows :- <br /> <br />
             <a href="https://drive.google.com/file/d/17NXU7kLBiL_JZfT3bxmuXtYwXO0XnxbZ/view?usp=sharing" target =  "_blank" rel="noreferrer"> deliveries.csv </a> <br />
             <a href="https://drive.google.com/file/d/15syEHNxcnmYEfF-RP2FTIpJGrMpW08Qz/view?usp=sharing" target =  "_blank" rel="noreferrer"> matches.csv </a>
             <br />
@@ -34,6 +35,7 @@ const AboutUs = () => {
         </p>
         </div>
 
+        </div>
         </div>
         </>
     )

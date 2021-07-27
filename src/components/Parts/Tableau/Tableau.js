@@ -11,7 +11,7 @@ const Tableau = () => {
         <div className="tableau">
         <h1> DATA ANALYSIS 1 </h1>
         </div>
-        <div>
+        <div className="tableau-img">
             <TableauReport url="https://public.tableau.com/views/CricketVisualization-4/DIFFERENTVENUESDETAILS" />
         </div>
 
