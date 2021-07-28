@@ -8,11 +8,10 @@ const Tableau = () => {
         <>
         <Navbar />
 
-        <div className="container">
         <div className="tableau">
         <h1> DATA ANALYSIS 1 </h1>
         </div>
-        {/* <div className="tableau-img">
+        <div className="tableau-img">
             <TableauReport url="https://public.tableau.com/views/CricketVisualization-4/DIFFERENTVENUESDETAILS" />
         </div>
 
@@ -70,9 +69,8 @@ const Tableau = () => {
         </div>
         <div>
             <TableauReport url="https://public.tableau.com/views/CricketVisualization-6/PLAYEROFTHEMATCH" />
-        </div> */}
-
         </div>
+
         </>
     )
 }
