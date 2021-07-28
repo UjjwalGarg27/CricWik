@@ -25,7 +25,7 @@ const AboutUs = () => {
         </p>
         </div>
 
-        <div className="para links footer">
+        <div className="para links">
         <p>
             Datasets that are used for doing the Data Visualization part are as follows :- <br /> <br />
             <a href="https://drive.google.com/file/d/17NXU7kLBiL_JZfT3bxmuXtYwXO0XnxbZ/view?usp=sharing" target =  "_blank" rel="noreferrer"> deliveries.csv </a> <br />
@@ -33,6 +33,9 @@ const AboutUs = () => {
             <br />
             <a href="https://drive.google.com/file/d/1VihIQijNPRqnIICOPy7222T7PxzhUmrN/view?usp=sharing" target =  "_blank" rel="noreferrer"> ipl_player_dataset.csv </a>
         </p>
+        </div>
+
+        <div className="para footer">
         </div>
 
         </div>

@@ -22,6 +22,9 @@ const KeyFindings = () => {
         <div> <img src="/images/datavisual.svg" alt="about" className="img" /> </div>
 
         <div className="para">
+        <p>
+            These are some of the findings that one can conclude from these different graphs after analyzing :-
+        </p>
         <ul className="findings"> 
             <li> Data Analysis 1 ➡ Most number of matches are won on Eden Gardens Stadium, specially Kolkata Knight Riders whose home ground is Eden Garders have won most of the matches among other teams. <br /> Other stadiums on which teams are comfortable to play are Wankhede, M Chinnaswamy, Feroz Shah Kotla, Rajiv Gandhi, MA Chidambaram Stadiums. </li>
             <li> Data Analysis 2 ➡ As we all know the importance of toss in the IPL tournament, we can see and verify from the statistics also, that the team who elected to field first have a higher chance of winning the game.  </li> <br />
@@ -35,10 +38,7 @@ const KeyFindings = () => {
         </ul>
         </div>
 
-        <div className="para links footer">
-        <p>
-
-        </p>
+        <div className="para footer">
         </div>
 
         </div>
