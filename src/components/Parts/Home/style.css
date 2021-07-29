@@ -1,16 +1,27 @@
-.slider {
-    width: 70rem;
-    height: 25rem;
-    background: #faf7f2;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
-    padding-top: 0rem;
-  }
-  
-  .slider img {
-    width: 70rem;
-    height: 25rem;
-  }
+
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 4rem;
+}
+
+button {
+  margin-bottom: -3.3rem;
+  margin-left: 1rem;
+  width: 90%;
+  border-color: transparent;
+  background-color: white;
+  color: black;
+  outline: none;
+  font-size: 30px;
+  height: 2rem;
+  z-index: 1;
+  cursor: pointer;
+}
+
+iframe {
+  margin-top: 1rem;
+  width: 90vw;
+  height: 118vh;
+}

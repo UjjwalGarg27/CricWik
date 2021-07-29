@@ -1,29 +1,29 @@
 import React, {useState, useEffect} from 'react';
-import MatchCards from '../MatchCards/MatchCards';
-import { getMatchInfo } from './API';
+import "./style.css";
+import Videos from './VideosAPI';
 
 const MatchDetails = () => {
 
-    const [matches, setMatches] = useState([]);
+    const [videoLink, setVideoLink] = useState("");
+
+    const Next = () => {
+        const randomVideo = Math.round(Math.random() * Videos.length);
+        setVideoLink(Videos.find((curElem, index) => index === randomVideo));
+    };
 
     useEffect(() => {
-        getMatchInfo()
-        .then((data) => {
-            setMatches(data.matches)
-            console.log(data.matches);
-        })
-        .catch((error) => alert("error1"));
-}, []);
+        Next();
+    }, []);
 
     return (
         <>
-            {
-                matches.map((match) => (
-                    <MatchCards key={match.unique_id} match={match} />
-                ))
-            }
+        <div className="video">
+        <button onClick={Next}> Next </button>
+        <iframe src = {videoLink} title="IPL Highlights"> </iframe>
+        </div>
         </>
     )
 }
 
 export default MatchDetails;
+

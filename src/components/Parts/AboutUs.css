@@ -8,7 +8,7 @@
 
 
 .header {
-    margin-left: 5rem;
+    margin-left: 3.3rem;
     margin-right: 0rem;
     width: 150%;
 }
@@ -22,13 +22,14 @@
 }
 
 .heading {
-    margin-left: 30rem;
+    margin-left: 32rem;
     font-size: 40px;
     margin-bottom: 20px;
+    color: white;
 }
 
 .para {
-    background-color: white;
+    background-color: rgb(240, 229, 228);
     font-size: 20px;
     padding: 20px;
 }
