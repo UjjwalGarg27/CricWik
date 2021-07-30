@@ -7,15 +7,15 @@
 }
 
 button {
-  margin-bottom: -3.3rem;
-  margin-left: 1rem;
-  width: 90%;
+  margin-top: 0.5rem;
+  margin-bottom: -4rem;
+  width: 91.25%;
   border-color: transparent;
   background-color: white;
   color: black;
   outline: none;
   font-size: 30px;
-  height: 2rem;
+  height: 3.5rem;
   z-index: 1;
   cursor: pointer;
 }
@@ -25,3 +25,59 @@ iframe {
   width: 90vw;
   height: 118vh;
 }
+
+@media (max-width: 360px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    width: 305%;
+    margin-left: 10rem;
+  }
+
+  button {
+    margin-bottom: -1rem;
+    width: 92%;
+    border-color: transparent;
+    background-color: white;
+    color: black;
+    outline: none;
+    font-size: 30px;
+    height: 4rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  iframe {
+    margin-top: 1rem;
+    width: 280vw;
+    height: 110vh;
+  }
+} 
+
+@media screen and (min-width: 363px) and (max-width: 700px) {
+  .video {
+    display: flex;
+    flex-direction: column;
+    width: 305%;
+    margin-left: 10rem;
+  }
+
+  button {
+    margin-bottom: -4rem;
+    width: 92%;
+    border-color: transparent;
+    background-color: white;
+    color: black;
+    outline: none;
+    font-size: 30px;
+    height: 4rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  iframe {
+    margin-top: 1rem;
+    width: 280vw;
+    height: 110vh;
+  }
+} 
