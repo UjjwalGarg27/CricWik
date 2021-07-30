@@ -8,10 +8,7 @@
 
 button {
   margin-top: 0.5rem;
-<<<<<<< HEAD
   margin-bottom: -4rem;
-=======
->>>>>>> 49ca6eb880e4d76f5fbfd2513266809a922ca03f
   width: 91.25%;
   border-color: transparent;
   background-color: white;
@@ -24,28 +21,19 @@ button {
 }
 
 iframe {
-  position: absolute;
   margin-top: 1rem;
   width: 90vw;
   height: 118vh;
 }
 
-<<<<<<< HEAD
 @media (max-width: 360px) {
-=======
-@media (max-width: 900px) {
->>>>>>> 49ca6eb880e4d76f5fbfd2513266809a922ca03f
   .video {
     display: flex;
     flex-direction: column;
     width: 305%;
     margin-left: 10rem;
   }
-<<<<<<< HEAD
 
-=======
-  
->>>>>>> 49ca6eb880e4d76f5fbfd2513266809a922ca03f
   button {
     margin-bottom: -1rem;
     width: 92%;
@@ -60,15 +48,10 @@ iframe {
   }
 
   iframe {
-<<<<<<< HEAD
-=======
-    position: absolute;
->>>>>>> 49ca6eb880e4d76f5fbfd2513266809a922ca03f
     margin-top: 1rem;
     width: 280vw;
     height: 110vh;
   }
-<<<<<<< HEAD
 } 
 
 @media screen and (min-width: 363px) and (max-width: 700px) {
@@ -98,6 +81,3 @@ iframe {
     height: 110vh;
   }
 } 
-=======
-}
->>>>>>> 49ca6eb880e4d76f5fbfd2513266809a922ca03f
