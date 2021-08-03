@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import "./style.css";
 import Videos from './VideosAPI';
+import Navbar from '../Navbar/Navbar';
 
-const MatchDetails = () => {
+const MatchHighlights = () => {
 
     const [videoLink, setVideoLink] = useState("");
 
@@ -17,6 +18,9 @@ const MatchDetails = () => {
 
     return (
         <>
+
+        <Navbar />
+
         <div className="video">
         <button onClick={Next}> Next </button>
         <iframe src = {videoLink} title="IPL Highlights"> </iframe>
@@ -25,5 +29,5 @@ const MatchDetails = () => {
     )
 }
 
-export default MatchDetails;
+export default MatchHighlights;
 

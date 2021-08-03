@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from "../Navbar/Navbar";
-import MatchDetails from './MatchDetails';
+import IPL from './IPL';
 
 const Home = () => {
     return (
         <>
             <Navbar />
-            <MatchDetails />
+            <IPL />
         </>
     )
 }
